@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my simple calculator</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>my simple calculator</h1>
+    <div class="calculator">
+            <!-- this input box shows the button pressed by the user in calculator -->
+
+            <input type="text" id="calc" name="answer"> <br><br>
+
+            <!-- display the calculator button on the screen.
+            onclick(function display the number presses by the user.) -->
+
+           <button onclick="showInput(1)">1</button>
+           <button onclick="showInput(2)">2</button>
+           <button onclick="showInput(3)">3</button>
+           <button onclick="showInput('+')">+</button>
+           <br> <br>
+           <button onclick="showInput(4)">4</button>
+           <button onclick="showInput(5)">5</button>
+           <button onclick="showInput(6)">6</button>
+           <button onclick="showInput('-')">-</button>
+           <br><br>
+           <button onclick="showInput(7)">7</button>
+           <button onclick="showInput(8)">8</button>
+           <button onclick="showInput(9)">9</button>
+           <button onclick="showInput('*')">*</button>
+           <br><br>
+           <button onclick="showInput(0)">0</button>
+           <button onclick="showInput('/')">/</button>
+           <button onclick="showInput('%')">%</button>
+           <button onclick="calculateResult()">=</button>
+           <br><br>
+           <button onclick="clearResult()">c</button>
+           <button onclick="showInput('00')">00</button>
+    
+    </div>
+    <script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
